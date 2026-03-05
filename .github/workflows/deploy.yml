@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 env:
-  RAILWAY_TOKEN: $({ secrets.RAILWAY_TOKEN })
-  DEEPSEEK_API_KEY: $({ secrets.DEEPSEEK_API_KEY })
-  DISCORD_TOKEN: $({ secrets.DISCORD_TOKEN })
+  RAILWAY_TOKEN: $'{ secrets.RAILWAY_TOKEN }'
+  DEEPSEEK_API_KEY: $'{ secrets.DEEPSEEK_API_KEY }'
+  DISCORD_TOKEN: $'{ secrets.DISCORD_TOKEN }'
 
 jobs:
   deploy:
